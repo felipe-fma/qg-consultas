@@ -36,7 +36,7 @@ class App extends React.Component {
   }
 
   get_Estabelecimento = () => {
-    this.get_token();
+    this.get_token(); 
 
     this.apiRouter.get('/GetEstabelecimento/1734266800')
     .then((res) => {
